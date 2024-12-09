@@ -1,0 +1,594 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --navyblue: #32404D;
+    --green: #007A5C;
+    --cream: #FCF2EB;
+    --white: white;
+    --lightblue: #F2FBF9;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: "Chivo", sans-serif;
+    /* border: 1px solid red; */
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img, video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ---------------------------------------------------- */
+/* coundown */
+
+.cd-blue-sec {
+    background-color: var(--navyblue);
+}
+
+.ends-tom {
+    color: var(--green);
+    font-size: 19px;
+}
+
+.ends-tom-para {
+    color: var(--white);
+    font-size: 19px;
+}
+
+#countdown-timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1em;
+}
+
+.countdown-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    /* Adjust spacing between items as needed */
+}
+
+.countdown-item {
+    text-align: center;
+}
+
+.countdown-item span {
+    display: block;
+    font-size: 1.5rem;
+    /* Adjust size as needed */
+    color: #00B78A;
+}
+
+.unit {
+    font-size: 0.9rem;
+    /* Adjust size as needed */
+    color: grey;
+}
+
+/* ------------------------------------------------------------ */
+/* navbar */
+
+.logo {
+    width: 60%;
+}
+
+/* ---------------------------------------------------------- */
+/* hero section */
+
+.hero-sec {
+    background-image: linear-gradient(rgba(37, 37, 37, 0.611), rgba(37, 37, 37, 0.322)), url(../images/background/h1_hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5%;
+}
+
+.edu-nd-scl {
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 25px;
+}
+
+.hero-heading {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.hero-para {
+    color: var(--white);
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.get-started {
+    background-color: var(--green);
+    padding: 15px 28px;
+    color: var(--white);
+}
+
+.get-started:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 1s all ease;
+}
+
+/* ----------------------------------------------------------- */
+/* sec-2 : TEACHING APPROACH */
+
+.sec-2 {
+    background-color: var(--cream);
+}
+
+.ta-cont {
+    padding-top: 25%;
+}
+
+.sec-2-heading {
+    color: var(--navyblue);
+    font-weight: 800;
+    font-size: 26px;
+    padding-top: 25px;
+}
+
+.sec-2-para {
+    font-size: 20px;
+    color: #32404dad;
+}
+
+.learnmore {
+    background-color: transparent;
+    border-bottom: 2px solid var(--green);
+    color: var(--green);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.learnmore:hover {
+    letter-spacing: 3px;
+    transition: 1s all ease;
+}
+
+/* ----------------------------------------------------------------------- */
+/* sec-3 : PROGRAMS WE OFFER */
+
+.prg-we-offer {
+    font-size: 18px;
+    color: #32404dad;
+}
+
+.sec3-fig {
+    border: 1px solid rgba(128, 128, 128, 0.63);
+}
+
+.sec3-fig:hover {
+    border: 1px solid black;
+    transition: 1s all ease;
+}
+
+.faculty {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+
+.faculty:hover {
+    color: #007A5C;
+}
+
+.sec-figcap-para {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+/* ----------------------------------------------------------------------- */
+/* sec-4 : ESSENTIAL RESOURCES */
+
+.sec-four {
+    background-color: var(--lightblue);
+    padding: 5%;
+}
+
+.sec4-border-div {
+    border: 1px solid rgba(128, 128, 128, 0.369);
+    padding: 7%;
+    margin-top: 12px;
+}
+
+.fy-std {
+    font-size: 25px;
+    color: var(--navyblue);
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.fy-para {
+    color: #32404ddc;
+    font-size: 17px;
+}
+
+.right-arw-div {
+    border: 1px solid var(--green);
+    color: var(--green);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.right-arw-div:hover {
+    border: 1px solid var(--green);
+    color: var(--white);
+    background-color: #007A5C;
+    transition: 1s all ease;
+}
+
+.sec4-border-div:hover{
+    background-color: #007a5b30;
+}
+
+/* ----------------------------------------------------------- */
+/* sec5: top stories */
+
+.top-stry-para {
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.705);
+    line-height: 30px;
+}
+
+.top-stry-para:hover {
+    color: var(--green);
+}
+
+/* ----------------------------------------------------------- */
+/* sec-7 : TRUSTED BY */
+
+.sec-7 {
+    background-color: var(--green);
+}
+
+.sec7-heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.sec-7-para {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.801);
+    line-height: 28px;
+}
+
+.join-now {
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 17px;
+}
+
+.join-now:hover {
+    letter-spacing: 3px;
+    transition: 1s all ease;
+}
+
+/* -------------------------------------------- */
+/* footer */
+
+.sec-footer {
+    background-color: var(--navyblue);
+    padding: 5%;
+}
+
+.quick-links {
+    color: var(--cream);
+    font-size: 22px;
+}
+
+.footer-white-txt {
+    color: var(--cream);
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.input-group-text {
+    background-color: var(--green);
+    border: var(--bs-border-width) solid var(--green);
+}
+
+.footer-brand {
+    color: var(--cream);
+}
+
+.flip-vertical-left:hover {
+    -webkit-animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: flip-vertical-left 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes flip-vertical-left {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+    }
+
+    100% {
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+    }
+}
+
+@keyframes flip-vertical-left {
+    0% {
+        -webkit-transform: rotateY(0);
+        transform: rotateY(0);
+    }
+
+    100% {
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+    }
+}
+
+menu{
+    padding: 0;
+}
+
+/* ****************************************************** */
+
+@media(min-width:768px) {
+
+    /* nav */
+    .logo {
+        width: 20%;
+    }
+
+    .hero-sec-cont {
+        width: 90%;
+        padding-bottom: 42px;
+    }
+
+    .edu-nd-scl {
+        font-size: 27px;
+        font-weight: 500;
+        padding-top: 42px;
+    }
+
+    .hero-heading {
+        font-size: 48px;
+        padding-top: 10px;
+    }
+
+    /* sec-2 : TEACHING APPROACH */
+
+    .ta-cont {
+        padding-top: 12%;
+    }
+
+    .fy-para {
+        width: 75%;
+    }
+
+    .right-arw-div {
+        margin-right: 30px;
+    }
+
+    .footer-logo {
+        width: 30%;
+    }
+}
+
+/* ***************************************************************** */
+
+@media(min-width:992px) {
+
+    /* nav */
+    .nav-link-cust{
+        font-size: 18px;
+    }
+    .nav-link-cust:hover {
+        color: var(--green);
+    }
+
+    .flip-2-hor-top-1:hover {
+        -webkit-animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+        animation: flip-2-hor-top-1 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    }
+
+    @-webkit-keyframes flip-2-hor-top-1 {
+        0% {
+            -webkit-transform: translateY(0) rotateX(0);
+            transform: translateY(0) rotateX(0);
+            -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+        }
+
+        100% {
+            -webkit-transform: translateY(-100%) rotateX(-180deg);
+            transform: translateY(-100%) rotateX(-180deg);
+            -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+        }
+    }
+
+    @keyframes flip-2-hor-top-1 {
+        0% {
+            -webkit-transform: translateY(0) rotateX(0);
+            transform: translateY(0) rotateX(0);
+            -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+        }
+
+        100% {
+            -webkit-transform: translateY(-100%) rotateX(-180deg);
+            transform: translateY(-100%) rotateX(-180deg);
+            -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+        }
+    }
+    .facebook, .twitter{
+        color: rgb(44, 44, 102);
+        font-size: 22px;
+    }
+    .linkedin{
+        color: skyblue;
+        font-size: 22px;
+    }
+    .youtube{
+        color: red;
+        font-size: 22px;
+    }
+    .mail{
+        color: greenyellow;
+        font-size: 22px;
+    }
+    .cont-us{
+        font-size: 18px;
+    }
+    .green-span{
+        color: #007A5C;
+        font-size: 18px;
+    }
+    /* hero-sec */
+    .hero-sec-cont{
+        width: 80%;
+        height: 70vh;
+    }
+
+    .edu-nd-scl{
+        padding-top: 15%;
+        font-size: 35px;
+    }
+
+    .hero-heading{
+        font-size: 68px;
+    }
+
+    .hero-para{
+        font-size: 25px;
+    }
+
+    .ta-cont{
+        padding-bottom: 59px;
+    }
+
+    .sec-2-heading{
+        font-size: 40px;
+    }
+    /* sec-3 : PROGRAMS WE OFFER */
+
+    .prg-we-offer{
+        font-size: 20px;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 5%;
+    }
+
+    .faculty{
+        font-size: 30px;
+    }
+
+    .sec-figcap-para{
+        font-size: 22px;
+    }
+
+    .learnmore{
+        font-size: 22px;
+    }
+
+    .top-stry-para{
+        font-size: 23px;
+        word-spacing: 4px;
+        line-height: 40px;
+    }
+
+    /* our partners */
+    .our-partner-para{
+        font-size: 23px;
+    }
+}
+
+@media(min-width:1400px){
+    /* nav */
+    .logo{
+        width: 10%;
+    }
+    .hero-sec-cont{
+        width: 80%;
+        height: 60vh;
+    }
+
+    .edu-nd-scl{
+        padding-top: 50px;
+        font-size: 35px;
+    }
+
+    .hero-heading{
+        font-size: 68px;
+        width: 70%;
+    }
+
+    .hero-para{
+        font-size: 25px;
+        width: 60%;
+    }
+
+    .ta-cont {
+        padding-top: 7%;
+    }
+
+    .sec-figcap-para{
+        padding-top: 22px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .sec4-border-div {
+        padding: 2%;
+        margin-top: 8px;
+    }
+
+    .top-stry-para{
+        font-size: 20px;
+        word-spacing: normal;
+    }
+
+    .sec7-heading{
+        font-size: 40px;
+        width: 70%;
+    }
+
+    .sec-7-para{
+        width: 70%;
+        font-size: 20px;
+    }
+
+    .join-now{
+        padding-top: 25px;
+    }
+
+    .footer-logo{
+        width: 90%;
+    }
+
+    .prg-we-offer {
+        padding-left: 0%;
+    }
+}
